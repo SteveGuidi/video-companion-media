@@ -1,6 +1,5 @@
-# code-samples
-A repository of code examples featured in my videos and other media.
+# Atari 2600 BASIC Programming
+Code samples and documents pertaining to an overview of the "BASIC Programming" cartridge, for the Atari 2600.
 
-Where possible, a link to the supporting content is provided in the folder containing the examples.
-
-See [Steve Guidi](https://www.youtube.com/channel/UCP1pRRcTrorolz3CFe6NZ5Q) (YouTube Channel) for more information.
+Videos:
+[Exploring BASIC Programming for the Atari 2600 - Part 1](https://youtu.be/aSvsjvake_0)
