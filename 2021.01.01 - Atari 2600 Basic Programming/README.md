@@ -3,3 +3,5 @@ Code samples and documents pertaining to an overview of the "BASIC Programming" 
 
 Videos:
 [Exploring BASIC Programming for the Atari 2600 - Part 1](https://youtu.be/aSvsjvake_0)
+[Exploring BASIC Programming for the Atari 2600 - Part 1](https://youtu.be/CU8stYVtjVM)
+
