@@ -16,3 +16,13 @@
 20	X%=(X%+1) - INT((X%+1)/255) * 255
 30 	POKE 53280,X%
 40 	GOTO 20
+
+-- I was informed that the BASIC program above is not very efficient,
+-- mainly due to the use of integer variables; all arithmetic operations
+-- in BASIC are performed on floating point numbers.
+--
+-- Also, since the modulus is the max signed value for a byte (255), we
+-- can replace the whole operation with a faster AND.
+
+10  X=53280:M=255
+20  POKEX,M AND PEEK(X)+1:GOTO 20
