@@ -1,0 +1,32 @@
+# Retronic Design "bootloadhid" Bootloader Configuration
+# Insert the following configuration block into the "boards.txt" file in your Arduino IDE installation path.
+# (e.g. C:\Program Files (x86)\Arduino\hardware\arduino\avr\boards.txt)
+
+
+##############################################################
+
+unohid.name=Arduino Uno (Retronic-BootloadHID)
+
+unohid.upload.tool=avrdude
+unohid.upload.protocol=arduino
+unohid.upload.maximum_size=32256
+unohid.upload.maximum_data_size=2048
+unohid.upload.speed=115200
+
+unohid.bootloader.tool=avrdude
+unohid.bootloader.low_fuses=0xDF
+unohid.bootloader.high_fuses=0xD8
+unohid.bootloader.extended_fuses=0xFD
+unohid.bootloader.unlock_bits=0x3F
+unohid.bootloader.lock_bits=0x0F
+
+# Path to compiled bootloader HEX file, relative to this file (boards.txt)
+unohid.bootloader.file=retronic-bootloadhid/main.hex
+
+unohid.build.mcu=atmega328p
+unohid.build.f_cpu=12000000L
+unohid.build.board=AVR_UNO
+unohid.build.core=arduino
+unohid.build.variant=standard
+
+##############################################################
