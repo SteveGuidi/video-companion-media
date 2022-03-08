@@ -3,7 +3,8 @@
 | Name | Designator | Footprint | Quantity | Manufacturer Part | Manufacturer |
 |---|---|---|---|---|---|
 | 10uF Capacitor | C1 | CAP-TH_BD4.0-P1.50-D0.8-FD | 1 | UMA1C100MDD | Nichicon |
-| 22pF Capacitor | C2,C3,C4,C5,C8,C9 | CAP-TH_L5.0-W2.5-P5.08-D0.7 | 6 | CD1H220JC9BECHD000 | Dersonic |
+| 22pF Capacitor | C2,C3 | CAP-TH_L5.0-W2.5-P5.08-D0.7 | 2 | CD1H220JC9BECHD000 | Dersonic |
+| 68pF Capacitor | C4,C5,C8,C9 | CAP-TH_L5.0-W2.5-P5.08-D0.7 | 4 | CD1H220JC9BECHD000 | Dersonic |
 | 100nF Capacitor | C6,C7 | CAP-TH_L5.3-W3.8-P5.08-D0.5 | 2 | Monolithic0805B104J500F3 | FH |
 | 1N5227B Zener Diode | D1,D2 | DO-35_BD2.0-L4.2-P8.20-D0.5-R-RD | 2 | 1N5227B | Semtech |
 | USB Type-A Male Connector | J1 | USB-A-TH_48037-0001 | 1 | USB-05 | SOFNG |
