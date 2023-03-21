@@ -1,7 +1,7 @@
 # Mutli-ROM/Kernal Switching Module
 
-Documents pertaining to the construction and operation of a multi-ROM switching module.
+Documents pertaining to the construction and operation of a multi-ROM switching module.  The referenced video discusses the theory of creating multi-ROM switching module, as well as gives a demo to the use of the module featured in this repo.
 
 
 Video:
-* [Considerations for making a Commodore 1581 Disk Drive](https://youtu.be/Vmb-hnSCLdI)
+* [Understanding and Making a Retro-Computer Multi-ROM Switcher](https://youtu.be/c0dO_dE3bmg)
